@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 2048M
+  instances: 1
+  domain: mybluemix.net
+  name: test-node-red-application
+  host: test-node-red-application
+  disk_quota: 1024M
+  services:
+  - test-node-red-application-cloudantNoSQLDB
+  - dashDB for Analytics-jo
